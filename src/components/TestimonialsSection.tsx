@@ -68,7 +68,8 @@ const TestimonialsSection: React.FC = () => {
 
   const getVisibleTestimonials = () => {
     const visible = [];
-    for (let i = 0; i < 3; i++) {
+    const maxCards = window.innerWidth < 768 ? 1 : 3;
+    for (let i = 0; i < maxCards; i++) {
       const index = (currentIndex + i) % testimonials.length;
       visible.push({ ...testimonials[index], originalIndex: index });
     }
@@ -93,7 +94,7 @@ const TestimonialsSection: React.FC = () => {
   return (
     <section className="py-20 bg-green-50">
       <div className="max-w-7xl mx-auto px-4">
-        <motion.div 
+        <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -106,27 +107,27 @@ const TestimonialsSection: React.FC = () => {
           <div className="w-24 h-1 bg-green-600 mx-auto"></div>
         </motion.div>
 
-        <div className="relative max-w-6xl mx-auto">
+        <div className="relative max-w-6xl mx-auto px-2 sm:px-4">
           {/* Navigation Buttons */}
           <motion.button
             onClick={prevTestimonial}
-            className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-4 z-10 w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center text-green-600 hover:bg-green-600 hover:text-white transition-colors"
+            className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-1/2 z-20 w-10 h-10 bg-white rounded-full shadow-lg flex items-center justify-center text-green-600 hover:bg-green-600 hover:text-white transition-colors"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
           >
             <ChevronLeft size={20} />
           </motion.button>
-          
+
           <motion.button
             onClick={nextTestimonial}
-            className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-4 z-10 w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center text-green-600 hover:bg-green-600 hover:text-white transition-colors"
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-1/2 z-20 w-10 h-10 bg-white rounded-full shadow-lg flex items-center justify-center text-green-600 hover:bg-green-600 hover:text-white transition-colors"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
           >
             <ChevronRight size={20} />
           </motion.button>
 
-          {/* Testimonial Cards Carousel */}
+          {/* Testimonials Carousel */}
           <div className="overflow-hidden">
             <AnimatePresence mode="wait">
               <motion.div
@@ -140,16 +141,14 @@ const TestimonialsSection: React.FC = () => {
                 {getVisibleTestimonials().map((testimonial, index) => (
                   <motion.div
                     key={`${testimonial.originalIndex}-${currentIndex}`}
-                    className={`group transition-all duration-500 ${
-                      index === 1 ? 'md:scale-105 z-10' : 'md:scale-95 md:opacity-80'
-                    }`}
+                    className={`group transition-all duration-500 ${index === 1 ? 'md:scale-105 z-10' : 'md:scale-95 md:opacity-80'}`}
                     whileHover={{ scale: index === 1 ? 1.08 : 1.02 }}
                   >
                     <div className="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all duration-500 relative h-full">
                       <div className="absolute -top-4 left-8 bg-yellow-400 rounded-full p-3">
                         <Quote size={20} className="text-gray-800" />
                       </div>
-                      
+
                       <div className="pt-6">
                         {/* Rating */}
                         <div className="flex items-center mb-4">
@@ -165,16 +164,16 @@ const TestimonialsSection: React.FC = () => {
                           ))}
                           <span className="ml-2 text-gray-600 font-medium">5.0</span>
                         </div>
-                        
-                        {/* Testimonial Text */}
+
+                        {/* Text */}
                         <p className="text-gray-600 leading-relaxed mb-6 italic">
                           "{testimonial.text}"
                         </p>
-                        
-                        {/* Customer Info */}
+
+                        {/* User Info */}
                         <div className="flex items-center space-x-4">
-                          <img 
-                            src={testimonial.image} 
+                          <img
+                            src={testimonial.image}
                             alt={testimonial.name}
                             className="w-12 h-12 rounded-full object-cover"
                           />
@@ -191,15 +190,13 @@ const TestimonialsSection: React.FC = () => {
             </AnimatePresence>
           </div>
 
-          {/* Dots Indicator */}
+          {/* Dots */}
           <div className="flex justify-center mt-8 space-x-2">
             {testimonials.map((_, index) => (
               <motion.button
                 key={index}
                 onClick={() => setCurrentIndex(index)}
-                className={`w-3 h-3 rounded-full transition-colors ${
-                  index === currentIndex ? 'bg-green-600' : 'bg-gray-300'
-                }`}
+                className={`w-3 h-3 rounded-full transition-colors ${index === currentIndex ? 'bg-green-600' : 'bg-gray-300'}`}
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.9 }}
               />

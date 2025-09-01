@@ -85,7 +85,7 @@ const Navbar: React.FC = () => {
               className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-green-500/25 flex items-center space-x-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-                                  onClick={()=>navigate("/contact")}
+                                                                      onClick={()=>navigate("/contact")}
 
             >
               <Phone size={18} />
@@ -120,10 +120,11 @@ const Navbar: React.FC = () => {
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.1 }}
+                    className='my-1'
                   >
                     <Link
                       to={item.path}
-                      className={`text-gray-700 hover:text-green-600 hover:bg-green-50 transition-all duration-300 font-medium px-4 py-3 ${
+                      className={`text-gray-700 hover:text-green-600 hover:bg-green-50 transition-all duration-300 font-medium px-2 py-1 ${
                         location.pathname === item.path ? 'text-green-600 bg-green-50' : ''
                       }`}
                     >
@@ -136,7 +137,8 @@ const Navbar: React.FC = () => {
                     className="w-full bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 flex items-center justify-center space-x-2"
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    onClick={()=>navigate("/contact")}
+                                                        onClick={()=>navigate("/contact")}
+
                   >
                     <Phone size={18} />
                     <span>Get a Quote</span>

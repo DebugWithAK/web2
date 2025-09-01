@@ -165,7 +165,8 @@ const Footer: React.FC = () => {
         <div className="max-w-[1440px] mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-green-200 text-center md:text-left">
-              © 2024 Calicolo. All rights reserved. Made with ❤️ for sustainable farming.
+© 2024 Calicolo. All rights reserved. Created by DebugWithAK for sustainable farming.
+
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-green-200 hover:text-yellow-400 transition-colors">Privacy Policy</a>
