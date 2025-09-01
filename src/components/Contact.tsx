@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
           >
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img 
-                src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=600&h=700&fit=crop"
+                src="https://cdn.pixabay.com/photo/2017/08/01/11/48/man-2564660_1280.jpg"
                 alt="Smiling Man in Farm"
                 className="w-full h-96 lg:h-[500px] object-cover"
               />

@@ -8,37 +8,37 @@ const Services: React.FC = () => {
       icon: <Users size={48} />,
       title: "Agricultural Consulting",
       description: "Expert guidance for sustainable farming practices and crop optimization strategies.",
-      image: "https://images.pexels.com/photos/2132240/pexels-photo-2132240.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      image: "https://cdn.pixabay.com/photo/2015/07/02/20/57/meeting-829983_640.jpg"
     },
     {
       icon: <Droplets size={48} />,
       title: "Soil Fertilization",
       description: "Organic soil enhancement and nutrient management for healthier crops.",
-      image: "https://images.pexels.com/photos/1595104/pexels-photo-1595104.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      image: "https://cdn.pixabay.com/photo/2016/11/21/16/21/agriculture-1846597_640.jpg"
     },
     {
       icon: <Milk size={48} />,
       title: "Dairy Production",
       description: "Sustainable dairy farming practices ensuring fresh, quality milk products.",
-      image: "https://images.pexels.com/photos/422218/pexels-photo-422218.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      image: "https://cdn.pixabay.com/photo/2016/11/29/05/45/agriculture-1867431_640.jpg"
     },
     {
       icon: <Leaf size={48} />,
       title: "Organic Certification",
       description: "Complete certification process guidance for organic farming standards.",
-      image: "https://images.pexels.com/photos/2255801/pexels-photo-2255801.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      image: "https://cdn.pixabay.com/photo/2017/05/12/11/28/organic-2306662_640.jpg"
     },
     {
       icon: <Tractor size={48} />,
       title: "Farm Equipment",
       description: "Modern agricultural equipment and machinery for efficient farming operations.",
-      image: "https://images.pexels.com/photos/2132227/pexels-photo-2132227.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      image: "https://cdn.pixabay.com/photo/2016/08/11/23/48/agriculture-1589561_640.jpg"
     },
     {
       icon: <Wheat size={48} />,
       title: "Crop Management",
       description: "Comprehensive crop planning, monitoring, and harvest optimization services.",
-      image: "https://images.pexels.com/photos/2132240/pexels-photo-2132240.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+      image: "https://cdn.pixabay.com/photo/2016/08/12/17/19/agriculture-1589850_640.jpg"
     }
   ];
 

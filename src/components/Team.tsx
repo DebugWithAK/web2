@@ -7,22 +7,22 @@ const Team: React.FC = () => {
     {
       name: "James Albert",
       designation: "Agricultural Director",
-      image: "https://images.pexels.com/photos/1300510/pexels-photo-1300510.jpeg?auto=compress&cs=tinysrgb&w=300&h=400&fit=crop"
+      image: "https://cdn.pixabay.com/photo/2016/11/21/16/21/agriculture-1846597_640.jpg"
     },
     {
       name: "David P. Mower",
       designation: "Soil Specialist",
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300&h=400&fit=crop"
+      image: "https://cdn.pixabay.com/photo/2017/08/01/11/48/man-2564660_640.jpg"
     },
     {
       name: "Queenie Patrico",
       designation: "Organic Consultant",
-      image: "https://images.pexels.com/photos/1300512/pexels-photo-1300512.jpeg?auto=compress&cs=tinysrgb&w=300&h=400&fit=crop"
+      image: "https://cdn.pixabay.com/photo/2016/11/21/16/05/woman-1846574_640.jpg"
     },
     {
       name: "Hugo Elhite",
       designation: "Harvest Manager",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300&h=400&fit=crop"
+      image: "https://cdn.pixabay.com/photo/2017/08/01/11/48/man-2564660_640.jpg"
     }
   ];
 

@@ -8,19 +8,19 @@ const Testimonials: React.FC = () => {
       name: "Victoria Garment",
       rating: 5,
       text: "Calicolo has transformed our farm with their organic methods. The quality of our produce has never been better!",
-      image: "https://images.pexels.com/photos/1300512/pexels-photo-1300512.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+      image: "https://cdn.pixabay.com/photo/2016/11/21/16/05/woman-1846574_150.jpg"
     },
     {
       name: "Ethan Walker",
       rating: 5,
       text: "Professional service and incredible results. Our soil health improved dramatically after their consultation.",
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+      image: "https://cdn.pixabay.com/photo/2017/08/01/11/48/man-2564660_150.jpg"
     },
     {
       name: "Anakee Elhira",
       rating: 5,
       text: "The team's expertise in sustainable farming is unmatched. Highly recommend their services to any farmer.",
-      image: "https://images.pexels.com/photos/1300510/pexels-photo-1300510.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+      image: "https://cdn.pixabay.com/photo/2016/11/21/16/21/agriculture-1846597_150.jpg"
     }
   ];
 

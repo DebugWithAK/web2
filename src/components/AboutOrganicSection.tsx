@@ -60,7 +60,7 @@ const AboutOrganicSection: React.FC = () => {
           >
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img 
-                src="https://images.pexels.com/photos/1595104/pexels-photo-1595104.jpeg?auto=compress&cs=tinysrgb&w=600&h=800&fit=crop"
+                src="https://cdn.pixabay.com/photo/2016/11/21/16/21/agriculture-1846597_1280.jpg"
                 alt="Experienced Farmer"
                 className="w-full h-96 lg:h-[500px] object-cover"
               />
@@ -75,7 +75,7 @@ const AboutOrganicSection: React.FC = () => {
                 whileHover={{ scale: 1.05 }}
               >
                 <img 
-                  src="https://images.pexels.com/photos/2132227/pexels-photo-2132227.jpeg?auto=compress&cs=tinysrgb&w=200&h=150&fit=crop"
+                  src="https://cdn.pixabay.com/photo/2016/08/11/23/48/agriculture-1589561_640.jpg"
                   alt="Tractor in Field"
                   className="w-32 h-20 object-cover rounded-lg"
                 />

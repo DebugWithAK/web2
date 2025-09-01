@@ -85,7 +85,7 @@ const HowItWorksSection: React.FC = () => {
           >
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img 
-                src="https://images.pexels.com/photos/1300510/pexels-photo-1300510.jpeg?auto=compress&cs=tinysrgb&w=600&h=700&fit=crop"
+                src="https://cdn.pixabay.com/photo/2016/11/21/16/05/woman-1846574_1280.jpg"
                 alt="Smiling Woman with Vegetables"
                 className="w-full h-96 lg:h-[500px] object-cover"
               />

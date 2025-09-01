@@ -5,22 +5,22 @@ const Projects: React.FC = () => {
   const projects = [
     {
       title: "Agricultural Farming",
-      image: "https://images.pexels.com/photos/2132240/pexels-photo-2132240.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: "https://cdn.pixabay.com/photo/2016/08/12/17/19/agriculture-1589850_640.jpg",
       category: "Field Crops"
     },
     {
       title: "Fertilizers & Pesticides",
-      image: "https://images.pexels.com/photos/1595104/pexels-photo-1595104.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: "https://cdn.pixabay.com/photo/2017/09/12/13/21/photosynthesis-2743948_640.jpg",
       category: "Soil Management"
     },
     {
       title: "Eco and Agriculture",
-      image: "https://images.pexels.com/photos/2255801/pexels-photo-2255801.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: "https://cdn.pixabay.com/photo/2017/05/12/11/28/organic-2306662_640.jpg",
       category: "Sustainable Farming"
     },
     {
       title: "Harvest Innovations",
-      image: "https://images.pexels.com/photos/422218/pexels-photo-422218.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: "https://cdn.pixabay.com/photo/2016/11/29/05/45/agriculture-1867431_640.jpg",
       category: "Modern Technology"
     }
   ];

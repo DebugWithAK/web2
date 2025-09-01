@@ -7,7 +7,7 @@ const Blog: React.FC = () => {
     {
       title: "Benefits of Eating Seasonal Produce",
       excerpt: "Discover why seasonal fruits and vegetables are better for your health and the environment.",
-      image: "https://images.pexels.com/photos/1300510/pexels-photo-1300510.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      image: "https://cdn.pixabay.com/photo/2017/05/12/11/28/organic-2306662_640.jpg",
       date: "March 15, 2024",
       author: "Sarah Johnson",
       tags: ["Organic", "Tips"]
@@ -15,7 +15,7 @@ const Blog: React.FC = () => {
     {
       title: "How to Start Your Own Organic Garden",
       excerpt: "A comprehensive guide for beginners looking to grow their own organic vegetables at home.",
-      image: "https://images.pexels.com/photos/2255801/pexels-photo-2255801.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      image: "https://cdn.pixabay.com/photo/2016/08/09/21/54/vegetables-1581679_640.jpg",
       date: "March 12, 2024",
       author: "Mike Davis",
       tags: ["Garden", "Tips"]
@@ -23,7 +23,7 @@ const Blog: React.FC = () => {
     {
       title: "Why Organic Farming is the Future",
       excerpt: "Exploring the environmental and health benefits of sustainable agricultural practices.",
-      image: "https://images.pexels.com/photos/2132240/pexels-photo-2132240.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      image: "https://cdn.pixabay.com/photo/2016/08/12/17/19/agriculture-1589850_640.jpg",
       date: "March 10, 2024",
       author: "Emily Chen",
       tags: ["Organic", "Future"]
@@ -31,7 +31,7 @@ const Blog: React.FC = () => {
     {
       title: "Smart Technology in Agriculture",
       excerpt: "How modern technology is revolutionizing farming practices and increasing efficiency.",
-      image: "https://images.pexels.com/photos/2132227/pexels-photo-2132227.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      image: "https://cdn.pixabay.com/photo/2020/05/18/16/17/social-media-5187243_640.png",
       date: "March 8, 2024",
       author: "James Wilson",
       tags: ["Technology", "Innovation"]
@@ -39,7 +39,7 @@ const Blog: React.FC = () => {
     {
       title: "Sustainable Soil Management Practices",
       excerpt: "Learn about effective methods to maintain healthy soil for long-term farming success.",
-      image: "https://images.pexels.com/photos/1595104/pexels-photo-1595104.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      image: "https://cdn.pixabay.com/photo/2017/09/12/13/21/photosynthesis-2743948_640.jpg",
       date: "March 5, 2024",
       author: "Lisa Thompson",
       tags: ["Soil", "Sustainable"]

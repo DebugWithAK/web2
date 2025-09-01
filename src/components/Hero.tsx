@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       id="home"
       className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.pexels.com/photos/2132227/pexels-photo-2132227.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop")'
+        backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://cdn.pixabay.com/photo/2016/08/11/23/48/agriculture-1589561_1280.jpg")'
       }}
     >
       <div className="max-w-[1440px] mx-auto px-4 w-full">
